@@ -1,0 +1,57 @@
+<!DOCTYPE html>?
+<html>
+<head>
+<script>
+function ValidForm(){
+var nameBox = document.forms["helloForm"]["name"].value;//Setting the nameBox variable to the name entered into the name box 
+if (nameBox = ""){//if there is no text in the name box it informs the user to add some text
+alert("Please add a name!");
+return false;
+}
+else {
+//Once a name or any text is entered into name box
+alert("Hello " + document.forms["helloForm"]["name"].value + "!");//Message if name is entered
+}
+}
+</script>
+</head>
+<!DOCTYPE html>?
+<html>
+<head>
+<script>
+function validForm(){
+var nameBox = document.forms["helloForm"]["name"].value;//Setting the nameBox variable to the name entered into the name box 
+if (nameBox = ""){//if there is no text in the name box it informs the user to add some text
+alert("Please add a name!");
+return false;
+}
+else {
+//Once a name or any text is entered into name box
+alert("Hello " + document.forms["helloForm"]["name"].value + "!");//Message if name is entered
+}
+}
+</script>
+</head>
+<!DOCTYPE html>?
+<html>
+<head>
+<script>
+function ValidForm(){
+var nameBox = document.forms["helloForm"]["name"].value;//Setting the nameBox variable to the name entered into the name box 
+if (nameBox = ""){//if there is no text in the name box it informs the user to add some text
+alert("Please add a name!");
+return false;
+}
+else {
+//Once a name or any text is entered into name box
+alert("Hello " + document.forms["helloForm"]["name"].value + "!");//Message if name is entered
+}
+}
+</script>
+</head>
+<body>
+<form name="helloForm" action="." onsubmit="return validForm()" method="get">? Your Name: <input type="text" name="name">?
+<input type="submit" value="Submit">?
+</form>
+</body>
+</html>
